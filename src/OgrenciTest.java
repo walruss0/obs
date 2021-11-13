@@ -7,7 +7,11 @@ public class OgrenciTest {
         ogr.setSoyad("Sancar");
         ogr.setDogumYeri("Mardin");
         ogr.setHarc(1500);
-
+        //deneme
         System.out.println(ogr.getAd()+ogr.getSoyad()+ogr.getNo()+ogr.getDogumYeri()+ogr.getHarc());
+
+      Ogrenci ogr2 = new Ogrenci(2,"onur","yildirim","Ankara",100);
+        System.out.println(ogr2);
+
     }
 }
